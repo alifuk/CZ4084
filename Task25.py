@@ -27,9 +27,9 @@ data = {
 }
 
 print(f"Získejte hodnotu 25: {data['Charlie']['age']}")
-print(f"Získejte hodnotu Brumbál: {''}")
-print(f"Získejte hodnotu 555-1234: {''}")
-print(f"Získejte hodnotu reading: {''}")
-print(f"Získejte hodnotu traveling: {''}")
-print(f"Získejte hodnotu bob@example.com: {''}")
-print(f"Získejte hodnotu 29: {''}")
+print(f"Získejte hodnotu Brumbál: {data['Albus']}")
+print(f"Získejte hodnotu 555-1234: {data['Alice']['contacts']['phone']}")
+print(f"Získejte hodnotu reading: {data['Alice']['hobbies'][0]}")
+print(f"Získejte hodnotu traveling: {data['Charlie']['hobbies'][1]}")
+print(f"Získejte hodnotu bob@example.com: {data['Bob']['contacts']['email']}")
+print(f"Získejte hodnotu 29: {data['Alice']['age']}")
