@@ -1,4 +1,5 @@
 import sys
+print(sys.argv)
 print(f"Spustili jste program s parametry {sys.argv[1]} a {sys.argv[2]}")
 soucet = int(sys.argv[1]) + int(sys.argv[2])
 
