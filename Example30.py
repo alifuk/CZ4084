@@ -18,6 +18,8 @@ if vek > 18:
     print("Jsi dospělý")
 elif vek == 18:
     print(f"Gratuluji, právě ti bylo 18")
+elif vek < 0:
+    print(f"Někde je chyba...")
 else:
     print("Nejsi dospělý")
 
