@@ -14,7 +14,7 @@ else:
     print("Nejsi dospělý")
 
 #Pokud chceme více podmínek:
-if vek >=18:
+if vek > 18:
     print("Jsi dospělý")
 elif vek == 18:
     print(f"Gratuluji, právě ti bylo 18")
