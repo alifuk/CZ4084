@@ -9,3 +9,13 @@ Program zkontroluje a vypíše, do které věkové kategorie patří:
 "Senior", pokud je věk 60 a více let.
 '''
 
+vek = int(input("Zadej věk"))
+if vek < 12:
+    print("Dítě")
+elif vek < 20:
+    print("Teen")
+elif vek < 60:
+    print("Dospělý")
+else:
+    print("Senior")
+

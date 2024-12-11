@@ -7,3 +7,13 @@ pokud je číslo nula, tak se vypíše "Firma je na nule"
 pokud je číslo záporné, tak se vypíše "Brzo bude krach"
 
 '''
+
+prijem = int(input())
+if prijem > 0:
+    print("Firma je v zisku")
+
+if prijem == 0:
+    print("Firma je na nule")
+
+if prijem < 0:
+    print("Brzo bude krach")

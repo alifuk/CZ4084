@@ -9,3 +9,16 @@ Napiš program, který požádá uživatele o zadání čísla odpovídající z
 5 = "Nedostatečně"
 Pokud uživatel zadá jiné číslo než 1–5, vypiš: "Neplatná známka".
 '''
+znamka = int(input("Zadej známku"))
+if znamka==1:
+    print("Výborně")
+elif znamka==2:
+    print("Chvalitebně")
+elif znamka==3:
+    print("Dobře")
+elif znamka==4:
+    print("Dostatečně")
+elif znamka==5:
+    print("Nedostatečně")
+else:
+    print("Neplatná známka")
