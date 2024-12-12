@@ -6,3 +6,5 @@ ICO = 3455432
 #Vystavuji fakturu ID 2 od firmy s IČO 3455432 na částku 18
 #Vystavuji fakturu ID 3 od firmy s IČO 3455432 na částku 34444
 #pomocí for cyklu a enumerate()
+for index, castka in enumerate(platby):
+    print(f"Vystavuji fakturu ID {index} od firmy s IČO {ICO} na částku {castka}")
